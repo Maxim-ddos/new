@@ -15,11 +15,20 @@
  .first-screen .paragraph {
 	padding-top:2%;
 }
+	
+	.firstbtn {
+	margin-left: 0px!important;
+	font-size: 12px!important;
+	height: 30px!important;
+	padding-top: 5px!important;
+	margin-top: 5px!important;
+
+}
 
 .collapseone .collapse a{
 color: white;
 text-decoration: none;
-font-size: 14px;
+font-size: 8px;
 line-height: 40px;
 }
 
@@ -30,7 +39,7 @@ color: white;
 .collapsing a{
 color: white;
 text-decoration: none;
-font-size: 14px;
+font-size: 8px;
 line-height: 40px;
 }
 
@@ -43,30 +52,59 @@ color: white;
   	.second-screen p {
 		font-size: 12px!important;
 	}
- 	.second-screen img {
-		height: 80px!important;
-	}
 
-
+.second-screen {
+	height: 500px!important;
+}
 .second-screen .glass {
 display: none!important;
 }
 
+	.third-screen {
+	height: 840px!important;
+}
+	
  .third-img {
  	display: none!important;
  }
 
    	.third-screen .two-screen-two {
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.third-screen .third-two-img {
 		display: none!important;
 	}
 
-  .fourth-screen {
+	.third-screen .thirdbtn {
+		display: none!important;
+	}
+	
+	.third-screen .text-third-two {
+		display: none!important;
+	}
+	
+	.third-screen .table-third {
+		--bs-gutter-x: 1.4 rem!important;
+	}
+	
+.third-screen .third-screen-two .hr-third {
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+}
+	
+.fourth-screen {
 	 	background-color: #282828!important;
+	  	height: 350px!important;
 }
 
+	.fourth-screen .input-four {
+    margin-right: 0px!important;
+}
+	
+	.fourth-screen .input-four-three {
+    width: 240px;
+}
+	
 .fourth-screen .head {
 	width: 40%!important;
 	margin-left: 30.5%!important;
@@ -74,7 +112,14 @@ display: none!important;
 }
 
 .fourth-screen .test {
-	width: 60%!important;
+	display:none!important;
+}
+	
+.fourthbtn a {
+	font-size: 12px!important;
+	height: 40px!important;
+	text-decoration: none!important;
+    padding: 5px 90px 5px 90px!important;
 }
 
 .footer-pool {
@@ -237,12 +282,15 @@ color: white;
 .second-screen {
  	background-color: #282828!important;
  }
- 	.second-screen p {
+	
+.second-screen p {
 		font-size: 12px!important;
-	}
-	.second-screen img {
+}
+	
+.second-screen img {
 		height: 100px!important;
-	}
+}
+
 .third-img {
  display: none!important;
  }
@@ -256,6 +304,7 @@ color: white;
 
  .fourth-screen {
 	 	background-color: #282828!important;
+	 	height: 370px!important;
 }
 
 .fourth-screen .head {
@@ -328,6 +377,13 @@ color: white;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+	.second-screen img {
+		height: 70%!important;
+}
+		.second-screen p {
+		font-size: 14px!important;
+}
+	
  .fourth-screen {
 	background-image: url('../img/back3.png');
 	background-size: cover;
@@ -470,6 +526,22 @@ body {
   background-repeat: no-repeat;
 }
 
+.first-screen .fitst-text{
+	display: flex;
+}
+
+.first-screen .first-text-two{
+	display: flex;
+	width: 50%;
+	justify-content: center;
+}
+
+.first-screen .first-text-three{
+	display: flex;
+	width: 50%;
+	justify-content: center;
+}
+
 .first-screen {
 	color: white;
 	font-size: 12px;
@@ -543,7 +615,7 @@ margin-bottom: 26%;
  }
 
  .second-screen img {
-	 height: 160px;
+	 height: 90%;
  }
 
 
